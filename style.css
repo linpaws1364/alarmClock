@@ -1,0 +1,156 @@
+
+body{
+    text-align: center;
+    background-color: #4CACBC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* contents section styles */
+
+/* style for clock image */
+
+.contents img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* style for horizontal rule */
+
+hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: dotted black 6px;
+	    border-bottom: none;
+	    width: 4%;
+}
+    
+/* styles for the current time showing part */
+#clock{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #204b74;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.timeCount{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: #F6E3C5;
+    width: 205px;
+    height: 10%;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin: auto;
+    margin-top: 2%;
+
+}
+
+/* styles for the set alarm heading */
+
+.contents h3{
+    text-align: center;
+    color: #F6E3C5;
+    text-decoration-line: underline;
+
+}
+
+/* styles for the area for setting alarm */
+
+.alarmArea{
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
+    height: 40px;
+    /* background-color: yellowgreen; */
+    padding-top: 0px;
+}
+
+/* styles for start and stop alarm buttons */
+
+.controls button{
+
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    background-color: #187498;
+    color: whitesmoke;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+
+.controls button:hover{
+    background: linear-gradient(#187498, #D3EBCD);
+}
+
+/* end of set alarm main section */
+
+/* start of set alarms list section */
+
+/* upcoming alarms heading style */
+
+.listing h3{
+    font-size: larger;
+    margin-top: -5px;
+    color: wheat;
+    text-decoration-line: underline;
+}
+
+/* styles for the lists of set alarms */
+
+#myList{
+    list-style-type: none;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+#myList li{
+    display: flex;
+    font-size: 1.2rem;
+    font-family: 'Fredoka One', cursive;
+    color: #F6E3C5;
+    background-color: #187498;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 3px;
+    width: 270px;
+    margin: auto auto auto auto;
+    margin-bottom: 10px;
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    /* background-color: violet; */
+    width: 150px;
+    
+}
+
+/* style for the delete button in set alarms */
+
+.time-list button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #187498;
+    border-color: black;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+}
+
+
+

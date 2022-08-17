@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon icon link -->
+    <link rel="icon" href="favicon.ico">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Comfortaa&family=Concert+One&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredoka+One&family=Oleo+Script&family=PT+Sans&family=PT+Sans+Narrow&family=Permanent+Marker&family=Righteous&display=swap" rel="stylesheet">
+    <!-- main css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- webpage title -->
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <!-- main content page to set alarm -->
+    <section class="contents">
+        <!-- alarm clock image -->
+        <img src="clock.png">
+        <!-- div for the clock showing current time -->
+        <div class="timeCount">
+            <div id="clock"></div>
+        </div>
+        <!-- form for setting alarm -->
+        <form class="setAlarm">
+        <!-- heading of setting alarm -->
+        <label class="alarm-head"><h3>Set Alarm</h3><label><br>
+        <!-- this div is for the setting alarm    -->
+        <div class="alarmArea">
+            <input type="number" name="a_hour" id="a_hour" placeholder="HH" max="23" min="00">
+            <input type="number" name="a_min" id="a_min" placeholder="MM" max="59" min="00">
+            <input type="number" name="a_sec" id="a_sec" placeholder="SS" max="59" min="00">
+        </div>
+        <!-- buttons to stop and start alarm -->
+            <div class="controls">
+                <button type="submit" class="set-alarm">Set Alarm</button>
+                <button type="reset" onclick="clearAlarm()" class="clear-alarm">Stop Alarm</button>
+            </div>
+        </form> 
+    </section>
+    <!-- end of alarm setting main page -->
+    <hr>
+    <!-- section for the list of set alarms -->
+    <section class="listing">
+        <!-- this div is the heading of set alarms -->
+        <div>
+            <h3 class="alarm-head">Upcoming Alarms</h3>
+        </div>
+        <!-- this div is for the list of set alarms -->
+        <div>
+            <ul id = "myList"></ul>
+        </div>
+    </section>
+    <!-- main javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
