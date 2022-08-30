@@ -13,4 +13,7 @@ HTML, CSS, JavaScript
 All the alarms being set will be added to an array. The array will be checked every second if it contains the current time. It it does, then the alarm sound will be played. 
 On clicking on "Stop alarm" the audio will be paused and on clicking on "Delete Alarm" the said alarm will be removed from the array and the list. 
 
+ # Screenshot 
  
+ ![Alarm Clock](https://user-images.githubusercontent.com/101203567/187547788-966289fe-a630-4799-9b31-fc9cf45d2251.png)
+
