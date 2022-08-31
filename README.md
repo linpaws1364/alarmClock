@@ -17,3 +17,6 @@ On clicking on "Stop alarm" the audio will be paused and on clicking on "Delete 
  
  ![Alarm Clock](https://user-images.githubusercontent.com/101203567/187547788-966289fe-a630-4799-9b31-fc9cf45d2251.png)
 
+# Demonstration Video 
+
+https://user-images.githubusercontent.com/101203567/187599961-d0828ecb-7f72-4cb7-b00c-9c0e97a61097.mp4
